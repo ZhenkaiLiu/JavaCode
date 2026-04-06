@@ -25,7 +25,7 @@ public class Variable {
         // 收20元。
         money += 20;
         // 打印最终结果
-        System.out.println(money);
+        System.out.println("当前账户余额为：" + money + "元");
 
     }
 }
