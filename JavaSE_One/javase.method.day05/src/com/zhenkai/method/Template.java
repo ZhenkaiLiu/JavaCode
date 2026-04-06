@@ -1,3 +1,5 @@
+package com.zhenkai.method;
+
 import java.util.Random;
 
 /**

@@ -3,11 +3,11 @@ package com.zhenkai.literal;
 /**
  * @author Zhenkai
  * @date 2026/4/6 周一
- * @info 掌握字面量在Java程序中的书写格式
+ * @description 掌握字面量在Java程序中的书写格式
  **/
 public class Literal {
     public static void main(String[] args) {
-       // 整数和小数
+        // 整数和小数
         System.out.println(99);
         System.out.println(99.99);
 

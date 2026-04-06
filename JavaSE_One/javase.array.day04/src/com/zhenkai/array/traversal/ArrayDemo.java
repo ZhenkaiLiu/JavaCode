@@ -1,3 +1,5 @@
+package com.zhenkai.array.traversal;
+
 /**
  * @author Zhenkai
  * @date 2026/4/7 周二
@@ -5,6 +7,7 @@
  **/
 public class ArrayDemo {
     public static void main(String[] args) {
+        // 数组遍历：将数组中的数据一个个访问
         int[] arr1 = {10, 20, 30, 40, 50};
         // 普通遍历方式
         for (int i = 0; i < arr1.length; i++) {
