@@ -24,7 +24,7 @@ public class ArrayDemo {
         }
 
         System.out.println("---------------------------------");
-        String[] arr2 = {"我是","练习时长","两年半的","个人练习生"};
+        String[] arr2 = {"我是", "练习时长", "两年半的", "个人练习生"};
         for (String a : arr2) {
             System.out.println(a);
         }
