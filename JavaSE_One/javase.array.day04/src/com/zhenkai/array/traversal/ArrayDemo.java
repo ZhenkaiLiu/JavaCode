@@ -15,7 +15,10 @@ public class ArrayDemo {
         }
 
         System.out.println("---------------------------------");
-        // 增强循环：主要用于数组、集合的遍历
+        // 增强循环：主要用于数组、集合的遍历 
+        /* for (数组数据类型 变量名 : 数组名) {
+                System.out.println(变量名);
+        } */
         for (int num : arr1) {
             System.out.println(num);
         }
