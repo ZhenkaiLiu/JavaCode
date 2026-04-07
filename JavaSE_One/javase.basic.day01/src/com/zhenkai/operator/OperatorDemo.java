@@ -43,8 +43,8 @@ public class OperatorDemo {
 
         // 三元运算符： 条件表达式 ? 值 1 : 值 2
         // 需求： 成绩必须大于 90，且数学成绩必须 大于 85 分才算优秀
-        double score = 60,mathScore = 98;
-        double score2 = 90,mathScore2 = 98;
+        double score = 60, mathScore = 98;
+        double score2 = 90, mathScore2 = 98;
         System.out.println(score >= 90 && mathScore >= 85 ? "优秀" : "良");
 
     }
