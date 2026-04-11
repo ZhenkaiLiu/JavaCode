@@ -10,12 +10,16 @@ import java.util.Random;
  **/
 public class Template {
     public static void main(String[] args) {
+        // 方法: 是一种语法结构, 把一段代码封装一个功能, 以便反复调用
+        /* 格式: 修饰符 返回值类型 方法名(形参列表) {
+                    方法体代码;
+                    return 返回值;
+        } */
+
         // 测试非法数
         System.out.println(createCode(0));
-
         // 测试生成 3 位验证码
         System.out.println("生成的 3 位验证码是： " + createCode(3));
-
         // 测试生成 5 位验证码
         System.out.println("生成的 5 位验证码是： " + createCode(5));
 
@@ -28,6 +32,7 @@ public class Template {
      * @return 返回生成的随机验证码或错误提示
      */
     public static String createCode(int number) {
+
         // 防御式编程
         if (number < 1) {
             return "数据错误，数字需要大于 0！";

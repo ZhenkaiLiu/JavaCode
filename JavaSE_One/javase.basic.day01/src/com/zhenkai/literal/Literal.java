@@ -3,7 +3,7 @@ package com.zhenkai.literal;
 /**
  * @author Zhenkai
  * @date 2026/4/6 周一
- * @description 掌握字面量在Java程序中的书写格式
+ * @description 掌握字面量在 Java 程序中的书写格式
  **/
 public class Literal {
     public static void main(String[] args) {
@@ -19,11 +19,11 @@ public class Literal {
         // 字符串：英文状态下书写 ""
         System.out.println("Hello");
 
-        // 布尔值：true (真) false (假)
+        // 布尔值： true (真) false (假)
         System.out.println(true);
         System.out.println(false);
 
-        // 空值：null
+        // 空值： null
         String str = null;
         System.out.println(str);
     }
