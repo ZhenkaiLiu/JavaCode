@@ -14,7 +14,7 @@ public class ArrayDemo2 {
         Scanner scanner = new Scanner(System.in);
 
         // 1. 定义一个动态初始化数组
-        double[] scores = new double[6];
+        final double[] scores = new double[6];
 
         // 2. 录入分数, 需要使用普通 for 循环
         for (int i = 0; i < scores.length; i++) {
