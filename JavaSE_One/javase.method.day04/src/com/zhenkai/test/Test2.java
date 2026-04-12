@@ -9,7 +9,10 @@ import java.util.Random;
  **/
 public class Test2 {
     public static void main(String[] args) {
-        
+        // 测试
+        System.out.println(creatCode(5));
+        System.out.println(creatCode(0));
+        System.out.println(creatCode(6));
     }
 
     /**
@@ -21,7 +24,7 @@ public class Test2 {
     public static String creatCode(int num) {
         // 1. 防御式编程
         if (num < 1) {
-            System.out.println("长度至少为 1！");
+            System.out.print("长度至少为 1！");
             return null;
         }
 
