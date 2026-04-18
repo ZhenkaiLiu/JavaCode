@@ -157,7 +157,6 @@ public class Operator {
                     System.out.println("恭喜 [" + account.getUserName() + "] 成功登入系统，您的卡号是：" + account.getCardId());
                     Operator.account = account;
                     loginShow();
-                    break;
                 }
             } else {
                 System.out.println("当前卡号不存在，请检查！");
@@ -217,13 +216,16 @@ public class Operator {
                     break;
                 case 5:
                     modifyPassWord();
-                    break;
+                    return;
                 case 6:
                     System.out.println(account.getUserName() + "您退出系统成功！");
                     return;
                 case 7:
                     deleteAccount();
-                    return;
+                    if (account == null) {
+                        return;
+                    }
+                    break;
                 default:
                     System.out.println("您当前选择的操作是不存在的，请确认~~");
             }
@@ -361,7 +363,7 @@ public class Operator {
     }
 
     private static void modifyPassWord() {
-        System.out.println("======密码修改========");
+        System.out.println("====密码修改====");
 
         boolean passwordVerified = verifyPassword(account);
         if (!passwordVerified) {
