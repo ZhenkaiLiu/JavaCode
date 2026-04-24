@@ -3,7 +3,7 @@ package com.zhenkai.design_pattern;
 /**
  * @author Zhenkai
  * @date 2026/4/24 周五
- * @description 讲解单例设计模式 —— 懒汉式
+ * @description 讲解单例设计模式 —— 饿汉式
  **/
 public class SingletonPattern1 {
     public static void main(String[] args) {
